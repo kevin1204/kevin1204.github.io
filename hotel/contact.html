@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Welcome to the most extraordinary hotel in Boston Massachusetts">
+    <meta name="keywords" content="hotel, boston hotel, new england hotel">
+    <script src="https://kit.fontawesome.com/f11d443a13.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Hotel KS | Contact</title>
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <div class="container">
+                <h1 class="logo"><a href="index.html">HBT</a></h1>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a class="current" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section id="contact-form" class="py-3">
+        <div class="container">
+            <h1 class="l-heading"><span class="text-primary">Contacta</span> Con Nosotros</h1>
+            <p>Por favor llene el formulario de abajo para contactarnos</p>
+            <form action="process.php">
+                <div class="form-group">
+                    <label for="name">Nombre</label>
+                    <input type="text" name="name" id="name">
+                </div>
+                <div class="form-group">
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" id="email">
+                </div>
+                <div class="form-group">
+                    <label for="message">Mensaje</label>
+                    <textarea type="text" name="message" id="message"></textarea>
+                </div>
+                <button type="submit" class="btn">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <section id="contact-info" class="bg-dark">
+        <div class="container">
+            <div class="box">
+                <i class="fas fa-hotel fa-3x"></i>
+                <h3>Locacion</h3>
+                <p>50 Av Principal, San Salvador</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-phone fa-3x"></i>
+                <h3>Teléfono</h3>
+                <p>(+503) 2222-5555</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-envelope fa-3x"></i>
+                <h3>Dirección Email</h3>
+                <p>gerardo@hotelbt.com</p>
+            </div>
+        </div>
+    </section>
+    
+    <footer id="main-footer" class="clr">
+        <p>Hotel <strong>Gerardo Ortega</strong> &copy; 2020, Todos los Derechos Reservados</p>
+    </footer>
+</body>
+</html>
